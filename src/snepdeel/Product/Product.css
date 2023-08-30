@@ -1,0 +1,212 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.books {
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+
+}
+
+.books .left {
+    width: 20%;
+    position: sticky;
+    top: 0px;
+    text-align: center;
+    height: 100vh;
+    background-color: #212A3E;
+
+    /* top:100px; */
+}
+
+.left ul {
+
+    width: 100%;
+
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-direction: column;
+    list-style: none;
+}
+
+.left h2 {
+    font-size: 30px;
+    padding: 15px 0px;
+    color:#9BA4B5;
+}
+
+.left ul li {
+    /* width: 100%; */
+    width: 70%;
+    height: 6%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+
+}
+
+.left ul li a {
+    border-radius: 2px;
+    /* margin-top: 20px; */
+    padding-top: 7px;
+    font-size: 22px;
+
+    text-align: center;
+    margin-top: 5%;
+    /* padding: 8px 20px; */
+    width: 100%;
+    display: inline-block;
+    height: 100%;
+    transition: all 0.8s ease;
+    color: black;
+
+    text-decoration: none;
+    background-color:  white;
+}
+
+.left ul li a:hover {
+    background-color: #efe4e7 ;
+    color: #21307b;
+}
+
+.right {
+    width: 80%;
+    /* flex-direction: column; */
+}
+
+.book {
+    /* display: flex; */
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* flex-direction: column; */
+}
+
+.book .singleBookAnchor {
+    width: 18%;
+    border-radius: 5px;
+    margin: 30px;
+    text-decoration: none;
+    color: black;
+    overflow: hidden;
+    box-shadow: 8px 8px 8px rgb(210, 209, 209);
+}
+
+.singleBook {
+    width: 100%;
+    /* background-color: rgb(245, 237, 237); */
+
+    /* background: linear-gradient(to top, #f4f4f3, #a6dabf); */
+
+
+    text-align: center;
+    position: relative;
+    height: 250px;
+    position: relative;
+
+    /* padding: 10px 20px; */
+    border-radius: 20px;
+
+}
+
+.bookRow h1 {
+    margin: 20px 20px;
+    width: 100%;
+}
+
+.singleBook h1 {
+    font-size: 20px;
+    margin: 10px 0px;
+}
+
+.singleBook img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.singleBook h3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+.singleBookAnchor .openHover {
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.9s ease;
+    padding :10px 5px ;
+}
+
+.singleBook:hover .openHover {
+    /* displ/ay: block; */
+    bottom: 0%;
+    background-color: rgba(148, 149, 172, 0.8);
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* border-top-left-radius: 30px; */
+}
+.openHover h2{
+    font-size: 19px;
+    margin-bottom:5px;
+    /* height: 30%; */
+    color: white;
+}
+.openHover p{
+    color: red;
+    /* height: 25%; */
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+.openHover a{
+    background-color:#212A3E;
+    color: white;
+    padding: 5px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.likeIcon{
+    position: absolute;
+    top:7px;
+    right:7px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    color: red;
+}
+.likeIcon .css-i4bv87-MuiSvgIcon-root {
+    font-size: 25px;
+    /* border: 1px solid red; */
+    transition: all 0.7s ease;
+    color:#212A3E;
+}
+.likeIcon:hover .css-i4bv87-MuiSvgIcon-root{
+    transform: scale(1.15);
+}
+
+.a{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+
+}

@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+}
+
+
+
+.topHeader,
+.topHeader ul,
+.bottomHeader,
+.bottomHeader ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+}
+.topHeader {
+    /* background-color:#f7f1f2; */
+    background-color: #212A3E;
+    padding: 10px 20px;
+}
+
+.topHeader h1 img {
+    height: 50px;
+    width: 80px;
+}
+
+.topHeader h1{
+    color: white;
+}
+
+.topHeader h1 span{
+    color:#9BA4B5 ;
+}
+.bottomHeader {
+    justify-content: center;
+  
+    background-color:#9BA4B5;
+    padding: 15px;
+}
+
+.bottomHeader ul,
+.topHeader ul {
+    justify-content: center;
+    
+    list-style: none;
+    /* padding: 5px 0px; */
+    background: none;
+}
+
+
+.topHeader ul li a{
+    color:white ;
+    text-decoration: none;
+    font-size: 21px;
+  
+    font-weight: bold;
+    transition: all 0.8s ease;
+    padding: 10px 30px;
+}
+.bottomHeader ul li a
+ {
+    text-decoration: none;
+    font-size: 21px;
+    color:#212A3E ;
+    font-weight: bold;
+    transition: all 0.8s ease;
+    padding: 10px 30px;
+}
+.topHeader ul li a .css-i4bv87-MuiSvgIcon-root{
+    font-size: 30px;
+    
+}
+.topHeader ul li .first{
+    padding: 6.5px 30px;
+}
+.topHeader ul li a:hover {
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: #9BA4B5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.bottomHeader ul li a {
+    padding: 0px 20px;
+    transition: all 0.9s ease;
+    color: #200c06;
+}
+
+.bottomHeader ul li a:hover {
+    background-color: #212A3E;
+    color:#9BA4B5;
+    padding: 10px;
+    border-radius: 10px 10px 10px;
+}
+
+
+
+.topHeader .searchButton input {
+    padding: 2px 10px;
+    width: 200px;
+    height: 30px;
+    font-size: 18px;
+    border: none;
+    color: #212A3E;
+    background-color:#ede7e2;
+    outline: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.topHeader .searchButton button {
+    padding: 2px 10px;
+    width: 80px;
+    font-size: 18px;
+    background-color: #9BA4B5;
+    height: 30px;
+   
+    color:  #212A3E ;
+    font-weight: bold;
+    border: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
