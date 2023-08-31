@@ -50,7 +50,7 @@ function ProductRow(props) {
         console.log(session)
         let likeBookId = data;
         console.log(likeBookId)
-        axios.patch("http://localhost:8080/product",{likeBookId, session})
+        axios.patch("https://servers-z693.onrender.com/product",{likeBookId, session})
         .then((result)=>{
             console.log(result.data)
         })

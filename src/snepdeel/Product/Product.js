@@ -13,7 +13,7 @@ function Product() {
   const { setTotalBooks} = useContext(searchContext)
  
   useEffect(() => {
-    axios.get("http://localhost:8080/product")
+    axios.get("https://servers-z693.onrender.com/product")
       .then((result) => {
         // console.log(result.data)
         setTotalBooks(result.data)

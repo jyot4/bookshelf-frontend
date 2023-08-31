@@ -9,7 +9,7 @@ import About from './About/About'
 import Product from "./Product/Product"
 import LearnMore from './About/LearnMore'
 import Footer from './Footer/Footer'
-import Contect from './Contacts/Contect'
+// import Contect from './Contacts/Contect'
 import Service from './Service/Service'
 import Registeruser from './Form/RegisterUser/Registeruser'
 import Login from "./Form/Login/LoginForm"
@@ -40,7 +40,7 @@ function First() {
                         <Route path='/product' element={<Product />}></Route>
                         {/* <Route path='/product/productrow' element={<ProductRow />}></Route> */}
                         <Route path='/service' element={<Service />}></Route>
-                        <Route path='/contact' element={<Contect />}></Route>
+                        {/* <Route path='/contact' element={<Contect />}></Route> */}
                         {/* <Route path='/cart' element={<Cart />}></Route> */}
                         <Route path='favorite' element={<Favorite/>}></Route>
                         <Route path='/sign' element={<Login />}></Route>

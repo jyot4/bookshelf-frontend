@@ -16,7 +16,7 @@ function Registeruser() {
   function handleSubmit(e) {
   
     e.preventDefault()
-    axios.post("http://localhost:8000/register", { name, email, phone, username, password })
+    axios.post("https://servers-z693.onrender.com/register", { name, email, phone, username, password })
     .then((result)=>{
       console.log(result.data)
       // console.log(result.data.name)
