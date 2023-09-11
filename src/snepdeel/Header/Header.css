@@ -1,0 +1,124 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.header {
+    width: 100%;
+}
+
+.topHeader,
+.topHeader ul,
+.bottomHeader,
+.bottomHeader ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+}
+
+.topHeader {
+    background-color: #212A3E;
+    padding: 10px 20px;
+}
+
+.topHeader h1 img {
+    height: 50px;
+    width: 80px;
+}
+
+.topHeader h1 {
+    color: white;
+}
+
+.topHeader h1 span {
+    color: #9BA4B5;
+}
+
+.bottomHeader {
+    justify-content: center;
+    background-color: #9BA4B5;
+    padding: 15px;
+}
+
+.bottomHeader ul,
+.topHeader ul {
+    justify-content: center;
+    list-style: none;
+    background: none;
+}
+
+.topHeader ul li a,
+.bottomHeader ul li a {
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: bold;
+    transition: all 0.8s ease;
+    padding: 10px 30px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .topHeader {
+        padding: 10px;
+    }
+
+    .topHeader h1 img {
+        height: 40px;
+        width: 60px;
+    }
+
+    .topHeader h1 {
+        font-size: 24px;
+    }
+
+    .topHeader ul li a,
+    .bottomHeader ul li a {
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+
+    .topHeader .searchButton input {
+        width: 150px;
+        font-size: 16px;
+    }
+
+    .topHeader .searchButton button {
+        width: 70px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .topHeader {
+        padding: 5px;
+    }
+
+    .topHeader h1 img {
+        height: 30px;
+        width: 50px;
+    }
+
+    .topHeader h1 {
+        font-size: 20px;
+    }
+
+    .topHeader ul li a,
+    .bottomHeader ul li a {
+        font-size: 16px;
+        padding: 10px 15px;
+    }
+
+    .topHeader .searchButton input {
+        width: 120px;
+        font-size: 14px;
+    }
+
+    .topHeader .searchButton button {
+        width: 60px;
+        font-size: 14px;
+    }
+}
