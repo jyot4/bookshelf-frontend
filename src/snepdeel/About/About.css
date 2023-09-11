@@ -1,4 +1,4 @@
-/* Reset and global styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +6,7 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-/* Base styles for all screens */
+
 .About {
     width: 100%;
 }
@@ -57,7 +57,7 @@
     z-index: 2;
 }
 
-/* Tablet Styles */
+
 @media screen and (max-width: 768px) {
     .AboutContent h1 {
         width: 90%;
@@ -72,7 +72,7 @@
     }
 }
 
-/* Phone Styles */
+
 @media screen and (max-width: 480px) {
     .AboutContent h1 {
         width: 95%;
